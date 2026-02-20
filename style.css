@@ -85,6 +85,7 @@ nav a:hover {
   padding: 2rem 1.5rem;
   margin: 1rem;
   border-radius: 8px;
+  center-align: center;
 }
 
 .order-form input,
@@ -96,6 +97,7 @@ nav a:hover {
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 1rem;
+  
 }
 
 
@@ -103,6 +105,7 @@ nav a:hover {
      display: block;
      margin-bottom: 0.5rem;
      font-size: 0.9rem;
+  
  }
  .submit-btn {
      background-color: #32cd32;

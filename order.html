@@ -13,7 +13,28 @@
     <a href="information.html">Information</a>
     <a href="order.html">Order</a>
   </nav>
- 
+  
+ <main class="form-container">
+        <form action="#" method="post" class="order-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            
+            <label for="bike-part">Select Bike Part:</label>
+            <select id="bike-part" name="bike-part" required>
+                <option value="">-Choose item-</option>
+                <option value=" Mountain Bike WheelSet">Mountain Bike WheelSet</option>
+                <option value="Saddle">Saddle</option>
+                <option value="Alloy Pedals">Alloy Pedals</option>
+            </select>
+            
+            <input type="number" name="quantity" placeholder="Quantity" min="1" required>
+            
+            <textarea name="address" placeholder="Write Your Full Address" rows="4" required></textarea>
+            
+            <button type="submit" class="submit-btn">Submit Order</button>
+        </form>
+    </main>
+
 
   <footer>
     <p>&copy; 2025 BikelowBike Store. All rights reserved.</p>

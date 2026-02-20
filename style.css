@@ -1,13 +1,5 @@
 
-{
 
-
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
-
-}
 
 
 body {
@@ -86,6 +78,41 @@ nav a:hover {
          margin: 1rem auto;
      }
     }
+
+.form-container {
+  background-color: #f8f9fa;
+  color: #000;
+  padding: 2rem 1.5rem;
+  margin: 1rem;
+  border-radius: 8px;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+
+.order-form label {
+     display: block;
+     margin-bottom: 0.5rem;
+     font-size: 0.9rem;
+ }
+ .submit-btn {
+     background-color: #32cd32;
+     color: #fff;
+     border: none;
+     padding: 0.75rem 1.5rem;
+     font-size: 1rem;
+     border-radius: 4px;
+     cursor: pointer;
+ }
 
 footer {
   background: #222;
